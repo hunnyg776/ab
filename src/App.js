@@ -51,7 +51,7 @@ const App = () => {
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img src="logo.png" alt="logo" />
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-401260591%2Fsports-theme-art-word.html&psig=AOvVaw0CBo8GYU8RpbGV30fEHxsG&ust=1639736781670000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPivnNeN6PQCFQAAAAAdAAAAABAL" alt="logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
