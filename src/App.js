@@ -58,11 +58,11 @@ const App = () => {
       {!newsArticles.length ? (
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
-            Created by
-            <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/"> Adrian Hajdin</a> -
-            <a className={classes.link} href="http://youtube.com/javascriptmastery"> JavaScript Mastery</a>
+            Operated by
+            <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/">Sportix</a> -
+            <a className={classes.link} href="http://youtube.com/javascriptmastery"> Official News </a>
           </Typography>
-          <img className={classes.image} src={logo} height="50px" alt="JSMastery logo" />
+          <img className={classes.image} src={logo} height="50px" alt="Sportix logo" />
         </div>
       ) : null}
     </div>
