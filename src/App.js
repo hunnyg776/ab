@@ -59,8 +59,8 @@ const App = () => {
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
             Operated by
-            <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/">Sportix</a> -
-            <a className={classes.link} href="http://youtube.com/javascriptmastery"> Official News </a>
+            <a className={classes.link} href="https://sportix.herokuapp.com/"> Sportix</a> -
+            <a className={classes.link}> Official News </a>
           </Typography>
           <img className={classes.image} src={logo} height="50px" alt="Sportix logo" />
         </div>
