@@ -51,7 +51,7 @@ const App = () => {
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img src="https://img.lovepik.com/free-png/20210923/lovepik-sports-theme-art-word-png-image_401260591_wh1200.png" alt="logo" />
+        <img src="https://img.lovepik.com/free-png/20210923/lovepik-sports-theme-art-word-png-image_401260591_wh1200.png" className={classes.alanLogo} alt="logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
